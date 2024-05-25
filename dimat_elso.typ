@@ -183,24 +183,95 @@ _Definiálja relációk értelmezési tartományát és értékkészletét! \ Mi
   content((0,-1), [b], name: "b")
   content((0,-2), [c], name: "c")
   content((0,-3), [d], name: "d")
-  content((0,-4), [e], name: "e")
   content((3,0),  [1], name: "1")
   content((3,-1), [2], name: "2")
   content((3,-2), [3], name: "3")
   content((3,-3), [4], name: "4")
-  content((3,-4), [5], name: "5")
-  content((3,-5), [6], name: "6")
   content(("a",1.5,"1"), [$R$], anchor: "south", padding: .5)
   set-style(mark: (end: ">"), stroke: green, fill:green)
-  line("a", "3")
+  line("a", "1")
+  line("a", "2")
   line("b", "1")
-  line("b", "6")
-  line("d", "1")
-  line("e", "6")
+  line("b", "4")
 })]
+
+- $"dmn"(R) eq {a,b}$
+- $"rng"(R) eq {1,2,4}$
+
 ]
 
-+ Definiálja relációk kompozı́cióját! \ Legyen $R eq {(a, 1), (a, 2), (b, 1), (b, 4)} "és" S eq {(1, alpha), (1, beta), (2, alpha)}.$ Mi lesz az $S circle.stroked.tiny R$ kompozı́ció? \ #text(style: "italic", fill: gray)[Picit lemaradt a feladat szövege az eredeti pdf-ben, így nem biztos, hogy értelmes a feladat]
++ #box()[
+_Definiálja relációk kompozı́cióját! \ 
+Legyen $R eq {(a, 1), (a, 2), (b, 1), (b, 4)} "és" S eq {(1, alpha), (1, beta), (2, alpha), (2, delta)}.$ Mi lesz az $S circle.stroked.tiny R$ kompozı́ció?_ \ #text(style: "italic", fill: gray)[Picit lemaradt a feladat szövege az eredeti pdf-ben, így nem biztos, hogy értelmes a feladat]
+
+- Legyenek _R_ és _S_ binér relációk. Ekkor az $R circle.stroked.tiny S$ kompozı́ció (összetétel, sorozat) reláció: $R circle.stroked.tiny S eq {(x,y) colon exists z colon (x,z) in S, (z,y) in R}$
+
+#align(center)[#cetz.canvas({
+  import cetz.draw: *
+  content((0,0),  [a], name: "a")
+  content((0,-1), [b], name: "b")
+  content((0,-2), [c], name: "c")
+  content((0,-3), [d], name: "d")
+  content((3,0),  [1], name: "1")
+  content((3,-1), [2], name: "2")
+  content((3,-2), [3], name: "3")
+  content((3,-3), [4], name: "4")
+  content((6,0),  [$alpha$], name: "al")
+  content((6,-1), [$beta$], name: "be")
+  content((6,-2), [$gamma$], name: "ga")
+  content((6,-3), [$delta$], name: "de")
+  content(("a",1.5,"1"), [$R$], anchor: "south", padding: .5)
+  content(("1",1.5,"al"), [$S$], anchor: "south", padding: .5)
+  set-style(mark: (end: ">"), stroke: green, fill:green)
+  line("a", "1")
+  line("a", "2")
+  line("b", "1")
+  line("b", "4")
+  set-style(mark: (end: ">"), stroke: blue, fill:blue)
+  line("1", "al")
+  line("1", "be")
+  line("2", "al")
+  line("2", "de")
+})]
+
+- $S circle.stroked.tiny R eq {(a,alpha),(a,beta),(a,delta),(b,alpha),(b,beta)}$
+
+#align(center)[#cetz.canvas({
+  import cetz.draw: *
+  content((0,0),  [a], name: "a")
+  content((0,-1), [b], name: "b")
+  content((0,-2), [c], name: "c")
+  content((0,-3), [d], name: "d")
+  content((3,0),  [1], name: "1")
+  content((3,-1), [2], name: "2")
+  content((3,-2), [3], name: "3")
+  content((3,-3), [4], name: "4")
+  content((6,0),  [$alpha$], name: "al")
+  content((6,-1), [$beta$], name: "be")
+  content((6,-2), [$gamma$], name: "ga")
+  content((6,-3), [$delta$], name: "de")
+  content(("a",1.5,"1"), [$R$], anchor: "south", padding: .5)
+  content(("1",1.5,"al"), [$S$], anchor: "south", padding: .5)
+  set-style(mark: (end: ">"), stroke: green, fill:green)
+  line("a", "1")
+  line("a", "2")
+  line("b", "1")
+  line("b", "4")
+  set-style(mark: (end: ">"), stroke: blue, fill:blue)
+  line("1", "al")
+  line("1", "be")
+  line("2", "al")
+  line("2", "de")
+    set-style(mark: (end: ">"), stroke: red, fill:red)
+  line("a", "al")
+  line("a", "be")
+  line("a", "de")
+  line("b", "al")
+  line("b", "be")
+
+})]
+
+]
 
 + Definiálja a szimmetrikus relációkat! \ Szimmetrikus-e az $R eq {(1, 2), (1, 3), (2, 3), (3, 1)} subset {1, 2, 3} times {1, 2, 3}$ reláció?
 
