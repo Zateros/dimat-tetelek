@@ -1,5 +1,8 @@
 name: Build Typst document
-on: [push, workflow_dispatch]
+on:
+  push:
+      branches:
+      - main
 
 permissions:
   contents: write
