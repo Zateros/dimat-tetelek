@@ -173,7 +173,7 @@ _Definiálja a binér reláció fogalmát! \ Mutasson két példát relációra 
 ]
 
 + #box()[
-_Definiálja relációk értelmezési tartományát és értékkészletét! \ Mi lesz az $R eq {(a, 1), (a, 2), (b, 1), (b, 4)} subset {a, b, c, d} times {1, 2, 3, 4}$ reláció értelmezési tartománya és értékkészlete?_ \ #text(style: "italic", fill: gray)[Picit lemaradt a feladat szövege az eredeti pdf-ben, így nem biztos, hogy értelmes a feladat]
+_Definiálja relációk értelmezési tartományát és értékkészletét! \ Mi lesz az $R eq {(a, 1), (a, 2), (b, 1), (b, 4)} subset {a, b, c, d} times {1, 2, 3, 4}$ reláció értelmezési tartománya és értékkészlete?_ 
 
 - Legyen $R supset X times Y$ egy reláció
   - R értelmezési tartománya: $"dmn"(R) eq {x in X: exists y in Y: (x,y) in R}$
@@ -204,7 +204,7 @@ _Definiálja relációk értelmezési tartományát és értékkészletét! \ Mi
 
 + #box()[
 _Definiálja relációk kompozı́cióját! \ 
-Legyen $R eq {(a, 1), (a, 2), (b, 1), (b, 4)} "és" S eq {(1, alpha), (1, beta), (2, alpha), (2, delta)}.$ Mi lesz az $S circle.stroked.tiny R$ kompozı́ció?_ \ #text(style: "italic", fill: gray)[Picit lemaradt a feladat szövege az eredeti pdf-ben, picit átírtam, hogy értelmes legyen]
+Legyen $R eq {(a, 1), (a, 2), (b, 1), (b, 4)} "és" S eq {(1, alpha), (1, beta), (2, alpha), (2, delta)}.$ Mi lesz az $S circle.stroked.tiny R$ kompozı́ció?_ 
 
 - Legyenek _R_ és _S_ binér relációk. Ekkor az $R circle.stroked.tiny S$ kompozı́ció (összetétel, sorozat) reláció: $R circle.stroked.tiny S eq {(x,y) colon exists z colon (x,z) in S, (z,y) in R}$
 
