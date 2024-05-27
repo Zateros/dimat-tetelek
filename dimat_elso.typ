@@ -165,12 +165,13 @@ _Definiálja a binér reláció fogalmát! \ Mutasson két példát relációra 
     circle((4.5,0), radius: (1.75, 1), name: "hz")
     content("hz.center", [$R$])
   })
-]
+
 //TODO
 - Pl.:
   - *Descartes-szorzat ($X times Y$)*: \ $X times Y eq {(a,1),(a,2),(a,3),(b,1),(b,2),(b,3),(c,1),(c,2),(c,3)}$
   - *Descartes-szorzat ($Y times X$)*: \ $Y times X eq {(1,a),(1,b),(1,c),(2,a),(2,b),(2,c),(3,a),(3,b),(3,c)}$
-]
+]]
+
 
 + #box()[
 _Definiálja relációk értelmezési tartományát és értékkészletét! \ Mi lesz az $R eq {(a, 1), (a, 2), (b, 1), (b, 4)} subset {a, b, c, d} times {1, 2, 3, 4}$ reláció értelmezési tartománya és értékkészlete?_ 
@@ -312,7 +313,7 @@ Adjon két különböző példát ekvivalencia relációra az $X eq {1, 2, 3}$ h
 
 - pl.:
   - $R eq {(1,1), (2,2), (3,3)} subset X times X$
-  - $R eq {(1,1), (1,2), (2,1), (2,2), (2,3), (3,2), (3,3)} subset X times X$
+  - $R eq {(1,1), (1,2),(1,3),(2,1), (2,2), (2,3),(3,1), (3,2), (3,3)} subset X times X$
 
 ]
 
