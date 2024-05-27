@@ -372,7 +372,7 @@ Mi lesz a $z eq 1 + i in CC$ szám trigonometrikus alakja?_
 _Mondja ki a szorzásra vonatkozó Moivre azonosságot! \
 Mi lesz a $z eq 3(cos(pi/3) + i dot sin(pi/3))$ és $w = 7(cos((5pi)/6)+i dot sin((5pi)/6))$ számok szorzatának trigonometrikus alakja?_
 
-- Legyen $z, w in CC \\ {0}$ nem-nulla komplex számok: $ z eq abs(z)(cos phi plus i sin phi), w eq abs(w)(cos psi plus i sin psi), $ és legyen $n in NN$. Ekkor $ z w eq abs(z) abs(w)(cos (phi plus psi) plus i sin (phi plus psi)) $
+- Legyen $z, w in CC \\ {0}$ nem-nulla komplex számok: $ z eq abs(z)(cos phi plus i sin phi), w eq abs(w)(cos psi plus i sin psi). $ Ekkor $ z w eq abs(z) abs(w)(cos (phi plus psi) plus i sin (phi plus psi)) $
 
 - $z w eq 3 dot 7(cos (pi/3 plus (5pi)/6) plus i sin (pi/3 plus (5pi)/6)) eq 21(cos ((7pi)/6) plus i sin ((7pi)/6))$
 
@@ -382,14 +382,14 @@ Mi lesz a $z eq 3(cos(pi/3) + i dot sin(pi/3))$ és $w = 7(cos((5pi)/6)+i dot si
 _Mondja ki az osztásra vonatkozó Moivre azonosságot! \
 Mi lesz a $z eq 3(cos(π/3) + i dot sin(π/3))$ és $w eq 7(cos((5pi)/6) + i dot sin((5pi)/6))$ számok hányadosának trigonometrikus alakja?_
 
-- Legyen $z, w in CC \\ {0}$ nem-nulla komplex számok: $ z eq abs(z)(cos phi plus i sin phi), w eq abs(w)(cos psi plus i sin psi), $ és legyen $n in NN$. Ekkor $ z / w eq abs(z) / abs(w)(cos (phi minus psi) plus i sin (phi minus psi)) $
+- Legyen $z, w in CC \\ {0}$ nem-nulla komplex számok: $ z eq abs(z)(cos phi plus i sin phi), w eq abs(w)(cos psi plus i sin psi). $ Ekkor $ z / w eq abs(z) / abs(w)(cos (phi minus psi) plus i sin (phi minus psi)) $
 
 - $z / w eq 3 / 7(cos (pi/3 minus (5pi)/6) plus i sin (pi/3 minus (5pi)/6)) eq 3 / 7(cos (-(3pi)/6) plus i sin (-(3pi)/6))$
 
 ]
 
 + #box()[_Mondja ki a hatványozásra vonatkozó Moivre azonosságot! \ 
-Mi lesz a $z = 3(cos(π/3) + i dot.op sin(π/3))$ számok tizenkettedik hatványának trigonometrikus alakja?_ \ \ Legyen $z in CC \\ {0}$ nem-nulla komplex számok: $ z eq abs(z) (cos(phi) + i sin(phi)) $ Ekkor $z^n eq abs(z)^n (cos n phi + i sin n phi)$ \ \ $z eq 3(cos(pi/3) + i sin(pi/3))$ $ z^12 eq abs(3)^12 (cos 12 (pi/3) + i sin 12(pi/3)) eq 3^12 (cos 4 pi + i sin 4 pi) eq \ eq 3^12 (cos 0 + i sin 0) eq 3^12 ( 1+0i) eq 3^12  $
+Mi lesz a $z = 3(cos(π/3) + i dot.op sin(π/3))$ számok tizenkettedik hatványának trigonometrikus alakja?_ \ \ Legyen $z in CC \\ {0}$ nem-nulla komplex számok: $ z eq abs(z) (cos(phi) + i sin(phi)) $ és legyen $n in NN$. Ekkor $z^n eq abs(z)^n (cos n phi + i sin n phi)$ \ \ $z eq 3(cos(pi/3) + i sin(pi/3))$ $ z^12 eq abs(3)^12 (cos 12 (pi/3) + i sin 12(pi/3)) eq 3^12 (cos 4 pi + i sin 4 pi) eq \ eq 3^12 (cos 0 + i sin 0) eq 3^12 ( 1+0i) eq 3^12  $
 ]
 
 +	_Adott $w eq.not 0$ komplex szám és $n ≥ 1$ egész esetén mik lesznek a $z^n = w$ komplex megoldásai? \ Mondja ki a megfelelő tételt! Hány megoldása van a $z^3 = −1$ egyenletnek komplex számok körében?_ \ \ Legyen $w in CC \\ {0}$ komplex szám $w eq abs(w) (cos psi + i sin psi)$ trigonometrikus alakkal. $z^n eq w, space z in CC$ egyenlet megoldásai: $ z_k eq abs(w)^(1/n) (cos phi_k + i sin phi_k): phi_k = psi/n + (2k psi)/n, space k eq 0,1,...,n-1 $ $ z^3 eq -1 arrow.double.long z eq root(3,-1) arrow.double.long z eq root(3,1)(cos(c(pi+2k pi)/3)+i sin((pi + 2k pi)/3)) $ Egyenletbe $k = 0,1,2$-re különbőző eredményt kapunk, tehát a $z^3 eq -1$ egyenletnek 3 megoldása van.
