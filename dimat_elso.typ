@@ -176,7 +176,7 @@ _Definiálja a binér reláció fogalmát! \ Mutasson két példát relációra 
 + #box()[
 _Definiálja relációk értelmezési tartományát és értékkészletét! \ Mi lesz az $R eq {(a, 1), (a, 2), (b, 1), (b, 4)} subset {a, b, c, d} times {1, 2, 3, 4}$ reláció értelmezési tartománya és értékkészlete?_ 
 
-- Legyen $R supset X times Y$ egy reláció
+- Legyen $R subset X times Y$ egy reláció
   - R értelmezési tartománya: $"dmn"(R) eq {x in X: exists y in Y: (x,y) in R}$
   - R értékkészlete: $"rng"(R) eq {y in Y: exists x in X: (x,y) in R}$
 
