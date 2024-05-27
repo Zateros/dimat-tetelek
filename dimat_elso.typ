@@ -204,7 +204,7 @@ _Definiálja relációk értelmezési tartományát és értékkészletét! \ Mi
 
 + #box()[
 _Definiálja relációk kompozı́cióját! \ 
-Legyen $R eq {(a, 1), (a, 2), (b, 1), (b, 4)} "és" S eq {(1, alpha), (1, beta), (2, alpha), (2, delta)}.$ Mi lesz az $S circle.stroked.tiny R$ kompozı́ció?_ 
+Legyen $R eq {(a, 1), (a, 2), (b, 1), (b, 4)} "és" S eq {(1, alpha), (1, beta), (2, alpha), (3, gamma)}.$ Mi lesz az $S circle.stroked.tiny R$ kompozı́ció?_ 
 
 - Legyenek _R_ és _S_ binér relációk. Ekkor az $R circle.stroked.tiny S$ kompozı́ció (összetétel, sorozat) reláció: $R circle.stroked.tiny S eq {(x,y) colon exists z colon (x,z) in S, (z,y) in R}$
 
@@ -233,10 +233,10 @@ Legyen $R eq {(a, 1), (a, 2), (b, 1), (b, 4)} "és" S eq {(1, alpha), (1, beta),
   line("1", "al")
   line("1", "be")
   line("2", "al")
-  line("2", "de")
+  line("3", "ga")
 })]
 
-- $S circle.stroked.tiny R eq {(a,alpha),(a,beta),(a,delta),(b,alpha),(b,beta)}$
+- $S circle.stroked.tiny R eq {(a,alpha),(a,beta),(b,alpha),(b,beta)}$
 
 #align(center)[#cetz.canvas({
   import cetz.draw: *
@@ -263,11 +263,10 @@ Legyen $R eq {(a, 1), (a, 2), (b, 1), (b, 4)} "és" S eq {(1, alpha), (1, beta),
   line("1", "al")
   line("1", "be")
   line("2", "al")
-  line("2", "de")
+  line("3", "ga")
     set-style(mark: (end: ">"), stroke: red, fill:red)
   line("a", "al")
   line("a", "be")
-  line("a", "de")
   line("b", "al")
   line("b", "be")
 
