@@ -399,7 +399,7 @@ Mi lesz a $z = 3(cos(π/3) + i dot.op sin(π/3))$ számok tizenkettedik hatvány
 
 == Kombinatorika
 
-+ #box()[_Hányféleképpen lehet n különböző elemet sorba állítani? \ Mondja ki a megfelelő összefüggést! \ Hányféleképpen lehet 5 különböző könyvet a polcra felrakni?_ \ \ $n$ elemből az első helyre $n$-féleképpen választhatunk, a második helyre $n-1$ féleképpen és így tovább,... . Így a szorzás szabály szerint az összes lehetőségek száma: $n(n-1)...2 dot.op 1 eq n!$ \ 5 különböző könyvet $5! eq 120$ féleképpen lehet sorbaállítani.]
++ #box()[_Hányféleképpen lehet n különböző elemet sorba állítani? \ Mondja ki a megfelelő összefüggést! \ Hányféleképpen lehet 5 különböző könyvet a polcra felrakni?_ \ \ $n$ elemből az első helyre $n$-féleképpen választhatunk, a második helyre $n-1$ féleképpen és így tovább,... . Így a szorzás szabály szerint az összes lehetőségek száma: $n dot.op (n-1) dot.op ... dot.op 2 dot.op 1 eq n!$ \ 5 különböző könyvet $5! eq 120$ féleképpen lehet sorbaállítani.]
 
 + _Hányféleképpen lehet n, nem feltételen különböző elemet sorba állítani? Mondja ki a megfelelő összefüggést! Hányféleképpen lehet 7 hosszú szót lehet képezni három darab ’a’, két darab ’b’ és három darab ’c’ segítségével?_ \ \ Ha minden elem között különbséget teszünk, akkor $n!$ lehetséges sorrend van.\ Azonban ekkor egy lehetőséget többször is számoltunk. Nevezetesen, ha az $i$-edik elemből $k_i$ darab van, akkor a ismétlés nélküli permutáció és a szorzat-szabály szerint egy sorrendet $(k_1)! dot.op ... dot.op (k_m)!$-szer számoltunk. \ Így az osztás-szabály szerint, ha az azonos típusú elemek között nem teszünk különbséget, akkor $(k_1 + k_2 + ... k_m )!/(k_1 !k_2 !...k_m !)$ lehetséges sorrend van. \ \ $7!/(3!2!3!)$ féleképpen. 
 
