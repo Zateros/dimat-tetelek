@@ -155,8 +155,6 @@ _Definiálja a binér reláció fogalmát! \ Mutasson két példát relációra 
     set-style(mark: (end: ">"), fill: black)
     line((0,-0.5), (0,6.5), name: "y")
     line((-0.5,0), (6.5,0), name: "x")
-    content("x.end", [$X$],anchor: "north", padding: .2)
-    content("y.end", [$Y$],anchor: "east", padding: .1)
     content("x.mid", [$A$], anchor: "north", padding: .2)
     content("y.mid", [$B$], anchor: "east", padding: .4)
     content("gr.north-east", [$A times B$], anchor: "north-east", padding: -0.6)
