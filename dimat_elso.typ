@@ -54,9 +54,10 @@ Az alábbiak közül melyik predikátum:_
 + $P (x) and O(x)$;
 _ahol adott $x$ egész esetén $P (x)$ és $O(x)$ jelentése, hogy $x$ prı́m, ill. $x$ páratlan._
 
-*Predikátum*: olyan változóktól függő kijelentések, amelyhez a változóik értékétől fűggően valamilyen igazságérték tartozik.
+*Predikátum*: olyan változóktól függő kijelentések, amelyhez a változóik értékétől fűggően valamilyen igazságérték tartozik (elemi formulák, önállóan jelentéssel bíró kifejezések)
 
-Az *_a)_ lesz predikátum*, a _b)_ már formulának számít.
+Az *_a)_ lesz predikátum*, a _b)_ már _formulának_ számít. \
+$arrow.long$ *Formula*: A formulák predikátumokból és logikai jelekből alkotott "mondatok"
 ]
 
 + #box()[
@@ -137,7 +138,7 @@ Mutasson egy-egy példát olyan _A, B, C_ halmazokra melyekre $(A union B) sect 
 + #box()[
 _Definiálja halmazok szimmetrikus differenciáját! \ Mi lesz az $A eq {a, b, c}$ és $B eq {b, c, d}$ halmazok szimmetrikus differenciája?_
 
-- $A triangle.t.small B eq (A \\ B) union (B \\ A) eq {a colon (a in A) plus.circle (b in B)}$
+- $A triangle.t.small B eq (A \\ B) union (B \\ A) eq (A union B) \\ (A sect B) eq {a colon (a in A) plus.circle (b in B)}$
 - ${a,b,c} triangle.t.small {b,c,d} eq ({a,b,c} \\ {b,c,d}) union ({b,c,d} \\ {a,b,c}) eq {a} union {d} eq {a,d}$
 ]
 
