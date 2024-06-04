@@ -325,7 +325,7 @@ Adjon két különböző példát osztályozásra az $X eq {1, 2, 3}$ halmazon!_
   - $union O eq X$
 
 - pl.:
-  - $O eq {{1,3},2}$
+  - $O eq {{1,3},{2}}$
   - $O eq {{1},{2},{3}}$
 
 ]
